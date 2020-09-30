@@ -10,16 +10,14 @@ const Home = () => {
         name: '',
         email: '',
         message: '',
-        phone: '',
-        uploadedFiles: [],
         buttonText: 'submit',
-        uploadPhotosButtonText: 'upload files' 
+        
     })
     
-    const {name,email,message,phone,uploadPhotosButtonText,uploadedFiles,buttonText} = value
+    const {name,email,message,buttonText} = value
 
    // const {REACT_APP_API, REACT_APP_CLOUDINARY_CLOUD_NAME,REACT_APP_CLOUDINARY_UPLOAD_SECRET} = process.env
- const { REACT_APP_API, REACT_APP_CLOUDINARY_CLOUD_NAME, REACT_APP_CLOUDINARY_UPLOAD_SECRET } = process.env;
+ const { REACT_APP_API} = process.env;
     const  handleChange = name => event => {
         setValue({...value , [name]: event.target.value})
     }
@@ -33,7 +31,7 @@ const Home = () => {
        axios({
            method: 'POST',
            url: `${REACT_APP_API}/feedback`,
-           data: {name,email,message,phone,uploadedFiles,uploadPhotosButtonText}
+           data: {name,email,message,uploadPhotosButtonText}
        })
 
        .then(response => {
@@ -42,12 +40,11 @@ const Home = () => {
              setValue({
               ...value,
               name: '',
-              phone: '',
               email: '',
               message: '',
-              uploadedFiles: [],
-              buttonText: 'submitted',
-              uploadPhotosButtonText: 'uploaded'
+              
+              buttonText: 'submitted'
+              
           })
        })
        .catch(error => {
@@ -58,33 +55,14 @@ const Home = () => {
     }
 
 
-    const uploadWidget = () => {
-        window.cloudinary.openUploadWidget({ cloud_name: REACT_APP_CLOUDINARY_CLOUD_NAME , upload_preset: REACT_APP_CLOUDINARY_UPLOAD_SECRET  , tags:['ebooks']},
-            function(error, result) {
-            //    console.log(result);
-                setValue({...value,uploadedFiles: result, uploadPhotosButtonText: `${result ? result.length : 0 } fotos subidas`})
-            });
-    }
+
 
 
     const feedbackForm = () => (
         <React.Fragment>
-        <div className="form-group pt-5">
-
-            <button onClick={()=> uploadWidget()} className="btn btn-outline-secondary btn-block p-5">
-                {uploadPhotosButtonText}
-            </button>
-
-        </div>
+       
             <form  onSubmit={handleSubmit}>
-
-                <div className="form-group">
-                    <label  className="text-muted">Description</label>
-                    <textarea onChange={handleChange('message')} className="form-control" value={message} required></textarea>
-                </div>
-
-                <div className="form-group">
-                <label  className="text-muted">Your name</label>
+                  <label  className="text-muted">Your name</label>
 
                     <input className="form-control" type="text" onChange={handleChange('name')} value={name}  required/>
                 </div>
@@ -96,10 +74,14 @@ const Home = () => {
                 </div>
 
                 <div className="form-group">
-                <label  className="text-muted">Your phone</label>
-
-                    <input className="form-control" type="number" onChange={handleChange('phone')} value={phone}  required/>
+                    <label  className="text-muted">Description</label>
+                    <textarea onChange={handleChange('message')} className="form-control" value={message} required></textarea>
                 </div>
+
+                <div className="form-group">
+              
+
+              
 
     <button className="btn btn-outline-primary btn-block">{buttonText}</button>
 
