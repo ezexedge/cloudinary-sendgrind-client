@@ -2,6 +2,7 @@ import React from 'react'
 
 import Layout from './Layout'
 
+import {Helmet} from 'react-helmet'
 const Home = () => {
     return (
         <Layout>

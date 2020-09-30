@@ -18,8 +18,8 @@ const Feedback = () => {
     
     const {name,email,message,phone,uploadPhotosButtonText,uploadedFiles,buttonText} = value
 
-    const {REACT_APP_API, REACT_APP_CLOUDINARY_CLOUD_NAME,REACT_APP_CLOUDINARY_UPLOAD_SECRET} = process.env
-
+   // const {REACT_APP_API, REACT_APP_CLOUDINARY_CLOUD_NAME,REACT_APP_CLOUDINARY_UPLOAD_SECRET} = process.env
+ const { REACT_APP_API, REACT_APP_CLOUDINARY_CLOUD_NAME, REACT_APP_CLOUDINARY_UPLOAD_SECRET } = process.env;
     const  handleChange = name => event => {
         setValue({...value , [name]: event.target.value})
     }
@@ -59,7 +59,7 @@ const Feedback = () => {
 
 
     const uploadWidget = () => {
-        window.cloudinary.openUploadWidget({ cloud_name: 'developer-gallardo' , upload_preset: 'dp2ujqbd', tags:['ebooks']},
+        window.cloudinary.openUploadWidget({ cloud_name: REACT_APP_CLOUDINARY_CLOUD_NAME , upload_preset: REACT_APP_CLOUDINARY_UPLOAD_SECRET  , tags:['ebooks']},
             function(error, result) {
             //    console.log(result);
                 setValue({...value,uploadedFiles: result, uploadPhotosButtonText: `${result ? result.length : 0 } fotos subidas`})
