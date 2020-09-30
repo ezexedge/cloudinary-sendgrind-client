@@ -31,7 +31,7 @@ const Home = () => {
        axios({
            method: 'POST',
            url: `${REACT_APP_API}/feedback`,
-           data: {name,email,message,uploadPhotosButtonText}
+           data: {name,email,message}
        })
 
        .then(response => {
@@ -65,7 +65,7 @@ const Home = () => {
                   <label  className="text-muted">Your name</label>
 
                     <input className="form-control" type="text" onChange={handleChange('name')} value={name}  required/>
-                </div>
+                
 
                 <div className="form-group">
                 <label  className="text-muted">Your email</label>
@@ -78,7 +78,6 @@ const Home = () => {
                     <textarea onChange={handleChange('message')} className="form-control" value={message} required></textarea>
                 </div>
 
-                <div className="form-group">
               
 
               
