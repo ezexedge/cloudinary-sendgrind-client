@@ -62,19 +62,19 @@ const Home = () => {
         <React.Fragment>
        
             <form  onSubmit={handleSubmit}>
-                  <label  className="text-muted">Your name</label>
+                  <label  className="text-muted">Ingresa tu Nombre</label>
 
                     <input className="form-control" type="text" onChange={handleChange('name')} value={name}  required/>
                 
 
                 <div className="form-group">
-                <label  className="text-muted">Your email</label>
+                <label  className="text-muted">Ingresa tu Email</label>
 
                     <input className="form-control" type="email" onChange={handleChange('email')} value={email}  required/>
                 </div>
 
                 <div className="form-group">
-                    <label  className="text-muted">Description</label>
+                    <label  className="text-muted">Mensaje</label>
                     <textarea onChange={handleChange('message')} className="form-control" value={message} required></textarea>
                 </div>
 
