@@ -38,7 +38,7 @@ const Feedback = () => {
 
        .then(response => {
           console.log('respuesta',response)
-          if (response.data.succes) toast.success('Thanks for your feedback');
+          if (response.data.succes) toast.success('enviado gracias!');
              setValue({
               ...value,
               name: '',

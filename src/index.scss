@@ -1,0 +1,353 @@
+$primary : blue;
+$color-white : white;
+$color-ezequiel: #ff9100;
+$color-cambios: #865009;
+$font-size-title: 2rem;
+$font-family-primary:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+sans-serif;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  background-color: $color-white;
+  font-family: $font-family-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#home{
+  margin-top: -56px;
+  overflow: hidden;
+}
+
+.book{
+ 
+  overflow: hidden;
+  display: flex;
+  color: $color-white;
+  height: 70vh;
+  background-image: linear-gradient(105deg,
+                                    rgba(white , .1) 0%,
+                                    rgba(black,.3) 20%,
+                                    black 60% ),
+   url('https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776_960_720.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  
+  justify-content: space-between;
+
+&__texto{
+  width: 40%;
+  transform: translate(135% ,40%);
+      &__title{
+        text-align: right;
+          font-family: 'Alfa Slab One', cursive;
+          font-weight: 50;
+          color:white;
+          font-size: $font-size-title;
+          padding: 10px;
+         
+
+          
+      
+      }  
+
+}  
+&__animate{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: translate(100%,70%);
+    span{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: animate 4s infinite ;
+  
+
+}
+
+    .span1{
+      background-image: url('https://midu.dev/images/wallpapers/javascript-grande-horizontal-4k.png');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      animation-delay: 2s;
+  }
+  .span2{
+      background-image: url('https://themeskills.com/wp-content/uploads/2019/04/wordpress-logo-blue.png');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      animation-delay: 3s;
+  }
+  .span3{
+      
+      background-image: url('https://cdn.filestackcontent.com/ePf2btlQ02F1VFHl4M6o');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      animation-delay: 4s;
+  }
+  .span4{
+      
+      background-image: url('https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg.webp');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      animation-delay: 1s;
+  }
+  
+
+}
+
+}
+
+@keyframes animate{
+  0%{
+      top: 0%;
+      left:0%;
+  }
+  25%{
+      top:0%;
+      left:50%;
+  }
+  50%{
+      top: 50%;
+      left: 50%;
+  }
+  75%{
+      top:50%;
+      left:0%;
+  }
+  100%{
+     top: 0%;
+     left: 0%; 
+  }
+ 
+  
+}
+
+
+
+#about{
+  
+  background-color:white;
+}
+
+.mr-auto {
+  margin-right: 0 !important;
+}
+.navbar-collapse {    
+       
+  -webkit-justify-content: flex-end !important;
+}
+
+
+.nav-item{
+  cursor: pointer;
+  font-family: $font-family-primary !important;
+color: $color-ezequiel !important;
+font-weight: 400 !important;
+margin-right: 30px !important;
+
+}
+.nav-item:hover{
+
+color: $color-white !important;
+
+
+}
+
+
+.navbar{
+  background-color: transparent !important;
+}
+
+
+h1,h2{
+  font-family: 'Secular One', sans-serif;
+}
+
+@media (max-width: 992px){
+
+  #home{
+    background-color: blue;
+   
+  }
+
+  .bg-dark {
+    background-color: #343a40!important;
+}
+
+.book__animate{
+  transform: translate(30%,70%);
+}
+
+.book span{
+  width: 40px;
+  height: 40px;
+}
+
+.book__texto{
+     transform: translate(120%,30%);
+}
+
+}
+
+#about {
+
+  
+
+  h2{
+margin-bottom: 50px;
+  }
+  ul {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+    
+    
+    li{
+      list-style:  none;
+      //padding: 10px;
+      margin: 30px 20px;
+      background-color: $color-ezequiel;
+      width: 120px;
+      border-radius: 20px;
+      -webkit-box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
+-moz-box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
+box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
+      
+      p{
+        color: white;
+        margin-top: 15px;
+        font-family: 'Alfa Slab One', cursive;
+
+      }
+    
+    }
+  }
+}
+
+#estudios{
+ 
+  h2{
+    margin-bottom: 80px;
+  }
+  ul{
+    text-align: left;
+    
+    li{
+      list-style: none;
+      //color: $color-ezequiel;
+      a{
+        text-decoration: none;
+        color: black;
+        
+      }
+       a:hover{
+        color: $color-ezequiel;
+        }
+      
+      p{
+        text-decoration: none;
+        margin-bottom: 0px;
+        
+      }
+    }
+  }
+}
+
+.footer{
+  width:  100%;
+  background-color: $color-ezequiel;
+  color: white;
+  padding: 40px;
+  font-weight: bolder;
+}
+
+@media (max-width: 400px){
+
+  .book__texto{
+}
+
+}
+
+.btn-outline-primary {
+  color: $color-ezequiel !important;
+  border-color: $color-ezequiel !important;
+  
+}
+
+.btn-outline-primary:hover{
+  color: white !important;
+  border-color: $color-cambios !important;
+  background-color: $color-ezequiel !important;
+
+}
+.btn-outline-primary:focus {
+  border-color: $color-cambios !important;
+  background-color: $color-ezequiel !important;
+
+}
+
+.btn-outline-primary:active {
+  border-color: $color-cambios !important;
+background-color: $color-cambios !important;
+}
+.btn-outline-primary:focus {
+  box-shadow: 0 !important;
+}
+
+.card{
+  padding: 0px !important;
+  margin-top: 0px !important;
+  border-color: 0px;
+  transition: .3 all;
+}
+.card:hover{
+  -webkit-box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
+  -moz-box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
+  box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
+
+}
+
+#proyectos a {
+  color: black;
+}
+
+
+#proyectos a:hover{
+  color: $color-ezequiel;
+  text-decoration: none;
+}
