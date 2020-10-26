@@ -292,7 +292,7 @@ box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
   width:  100%;
   background-color: $color-ezequiel;
   color: white;
-  padding: 40px;
+  padding: 0px;
   font-weight: bolder;
 }
 
@@ -316,16 +316,19 @@ box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
 
 }
 .btn-outline-primary:focus {
-  border-color: $color-cambios !important;
+  color: white!important;
+  border-color: white !important;
   background-color: $color-ezequiel !important;
 
 }
 
 .btn-outline-primary:active {
-  border-color: $color-cambios !important;
+  color: white!important;
+  border-color: white !important;
 background-color: $color-cambios !important;
 }
 .btn-outline-primary:focus {
+  color: white!important;
   box-shadow: 0 !important;
 }
 
@@ -334,6 +337,7 @@ background-color: $color-cambios !important;
   margin-top: 0px !important;
   border-color: 0px;
   transition: .3 all;
+  margin-top: 10px !important;
 }
 .card:hover{
   -webkit-box-shadow: 0px 13px 25px -15px rgba(0,0,0,0.66);
@@ -351,3 +355,56 @@ background-color: $color-cambios !important;
   color: $color-ezequiel;
   text-decoration: none;
 }
+
+.sobre-mi{
+  background-color: black;
+  padding: 40px 90px;
+  color: $color-ezequiel;
+  font-weight: bolder;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;   
+    margin-top: 50px;
+ 
+  }
+.hijo-footer{
+  width: 50%;
+  background-color: black;
+  padding: 30px;
+  position: relative;
+  top: -90px;
+  margin-top: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 13px 18px -3px rgba(0,0,0,0.61); 
+box-shadow: 0px 13px 18px -3px rgba(0,0,0,0.61);
+
+}
+
+
+.footer .texto-footer {
+  transform: translateY(-50px); /* Equivalente a translateX(10px) */
+
+}
+
+.footer  a{
+color: white;
+font-size: 40px;
+}
+.footer  a:hover{
+  text-decoration: none;
+  color: grey;
+  }
