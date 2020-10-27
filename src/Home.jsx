@@ -404,13 +404,12 @@ const Home = () => {
             <div  className="card  col-md-3">
             <a href="https://sleepy-dusk-42101.herokuapp.com/iniciar-sesion" target="_blank">
           <img className="card-img-top " src="https://bn1303files.storage.live.com/y4maYQqFxhtFh1adJ09xl0bdCAY_EvnZQSuIPuYAZUu8SLqOjA1C_XhS_ciCJV3lA3AJQ-lZAQsps0nxIocmmI5Eb2s67X7zlrFITLSfKKlJirzvMFcZRxeFa2e13_grwdLO5Vhn1l5FvQsDieS8J2H6xUy7gTK9ceyy5CQxgGgApioXlYEMF9SciUjmuomdIWE?width=660&height=319&cropmode=none" alt="Card image cap"/>
-          <div className="card-body">En esta app deberas registrarte  , crear proyectos y dentro esos proyectos tareas 
+          <div className="card-body">En clone de hackers news usando la base de datos firebase, podras registrarte , agregar link, y comentar
             <hr/>
             <div className="text-center font-weight-bolder">Tecnologias</div>
-            <span class="badge badge-success mt-2 mr-2 ml-2">NODEJS</span>
-            <span class="badge badge-info mt-2 mr-2">MYSQL</span>
-            <span class="badge badge-warning mt-2 mr-2">PUG</span>
-            <span class="badge badge-secondary mt-2">WEBPACK</span>
+           
+            <span class="badge badge-info mt-2 mr-2">REACT</span>
+            <span class="badge badge-warning mt-2 mr-2">FIREBASE</span>
 
            </div>
            </a>
