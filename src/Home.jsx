@@ -144,6 +144,7 @@ const Home = () => {
            <div className="col-12">
               <h5 className="text-center">Hola soy Ezequiel! Programador javascript . Utilizo para desarrollo MERN STACK y wordpress , me divierte programar , como tambien actualizarme y ver tendencias que me mejoran como desarrollador</h5>
           </div>
+          <a href="https://res.cloudinary.com/developer-gallardo/image/upload/v1603757304/Ezequiel_Gallardo_-_javascript_fullstack_zfvq2n.pdf">ver mi cv</a>
       </div>
       </div>
       </React.Fragment>
