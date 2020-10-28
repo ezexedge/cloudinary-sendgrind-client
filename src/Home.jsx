@@ -144,7 +144,7 @@ const Home = () => {
            <div className="col-12">
               <h5 className="text-center">Hola soy Ezequiel! Programador javascript . Utilizo para desarrollo MERN STACK y wordpress , me divierte programar , como tambien actualizarme y ver tendencias que me mejoran como desarrollador</h5>
           </div>
-          <a href="https://res.cloudinary.com/developer-gallardo/image/upload/v1603757304/Ezequiel_Gallardo_-_javascript_fullstack_zfvq2n.pdf" target="_blank">ver mi cv</a>
+          <a href="https://res.cloudinary.com/developer-gallardo/image/upload/v1603898579/Ezequiel_Gallardo_-_javascript_fullstack_1_bbonln.pdf" target="_blank">ver mi cv</a>
       </div>
       </div>
       </React.Fragment>
@@ -316,17 +316,15 @@ const Home = () => {
 
 
         <div  className="card  col-md-3">
-            <a href="https://hidden-garden-45879.herokuapp.com/" target="_blank">
-          <img className="card-img-top " src="https://mrbbig.bn.files.1drv.com/y4mZ32LxZdpIP1R_ENWBEow7UrsGYNKRd1IfCFThVmawPe16soHw36SPrLTbrITdgDFkDDggA2jzKtXjUTR14c6T9FowCVA3Bj7OXUjR4zXv62l_bekO-zM4fFZl8NVIGBp2SkVDewLA9zkHniXCbA5ZyihFhL60nnZreisdwvMgY_mIxqHMqD1OwnIAyxInbKpA5WpanWUapO60bjKMMlqIg?width=660&height=328&cropmode=none" alt="Card image cap"/>
-          <div className="card-body ">Como admin subo libros y los guardo en mi base de datos para que sean descargado
+        <a href="https://sleepy-dusk-42101.herokuapp.com/iniciar-sesion" target="_blank">
+          <img className="card-img-top " src="https://zstpxa.bn.files.1drv.com/y4mRV4f8wQsHnElLRqypYVu0O7fj7HYA7cjlAhvkKPumpsNXnFMZRvtg2mQkd2kn2MIG7Hkw-RCfB5l8ZEV2Iafo9u65at-mIkOHzLHet1lM6UB0ZUNqrMHvd6LYssLmSS3AcvlRMCUc8Yn_NQq5lLl4I3JzXQZITHZpzOOaGnFlXvA4SSuN_KlKKWwH5dZBdJtC8hv9KJaAcQbdcpc7WMyGQ?width=660&height=431&cropmode=none" alt="Card image cap"/>
+          <div className="card-body">En esta app deberas registrarte  , crear proyectos y dentro esos proyectos tareas 
             <hr/>
             <div className="text-center font-weight-bolder">Tecnologias</div>
-        
-            <span class="badge badge-danger mt-2">Bootstrap</span>
             <span class="badge badge-success mt-2 mr-2 ml-2">NODEJS</span>
             <span class="badge badge-info mt-2 mr-2">MYSQL</span>
-            <span class="badge badge-warning mt-2">PUG</span>
-
+            <span class="badge badge-warning mt-2 mr-2">PUG</span>
+            <span class="badge badge-secondary mt-2">WEBPACK</span>
 
            </div>
            </a>
@@ -345,21 +343,6 @@ const Home = () => {
           <div className="container ">
             <div className="col-12 d-flex flex-wrap justify-content-between">
             <div  className="card  col-md-3">
-            <a href="https://sleepy-dusk-42101.herokuapp.com/iniciar-sesion" target="_blank">
-          <img className="card-img-top " src="https://zstpxa.bn.files.1drv.com/y4mRV4f8wQsHnElLRqypYVu0O7fj7HYA7cjlAhvkKPumpsNXnFMZRvtg2mQkd2kn2MIG7Hkw-RCfB5l8ZEV2Iafo9u65at-mIkOHzLHet1lM6UB0ZUNqrMHvd6LYssLmSS3AcvlRMCUc8Yn_NQq5lLl4I3JzXQZITHZpzOOaGnFlXvA4SSuN_KlKKWwH5dZBdJtC8hv9KJaAcQbdcpc7WMyGQ?width=660&height=431&cropmode=none" alt="Card image cap"/>
-          <div className="card-body">En esta app deberas registrarte  , crear proyectos y dentro esos proyectos tareas 
-            <hr/>
-            <div className="text-center font-weight-bolder">Tecnologias</div>
-            <span class="badge badge-success mt-2 mr-2 ml-2">NODEJS</span>
-            <span class="badge badge-info mt-2 mr-2">MYSQL</span>
-            <span class="badge badge-warning mt-2 mr-2">PUG</span>
-            <span class="badge badge-secondary mt-2">WEBPACK</span>
-
-           </div>
-           </a>
-        </div>
-
-        <div  className="card  col-md-3">
             <a href="http://206.189.227.59/" target="_blank">
           <img className="card-img-top " src="https://qd7mfa.bn.files.1drv.com/y4mT8l---iDPqpCoJJ7GD6MYzOoRQ24HwALnzaqUU5qU6ROF9WTNbNmsc0WGvb73RMhD0OTQgf7f5LlRQL7wQZAsgkGD6INHBmm8SPWD__QyUuGR-jHHJo_BvpxipPmpLpQqgprvLTVbEo8NSdbZRLidCeoI6Q6KQjp0BVskR0PYGmlsdjZ6FpWUTwihrlu0rb4llQ099lMEI_AQxONFpzaag?width=660&height=451&cropmode=none" alt="Card image cap"/>
           <div className="card-body">El usuario podra registrarse , recibir un mail de validacion y luego modificar sus datos almacenados
@@ -374,9 +357,8 @@ const Home = () => {
            </a>
         </div>
 
-
         <div  className="card  col-md-3">
-            <a href="http://206.81.5.205/" target="_blank">
+        <a href="http://206.81.5.205/" target="_blank">
           <img className="card-img-top " src="https://27jzhw.bn.files.1drv.com/y4m263L0ossS-9ARA-SUz1_IanQRBuZ-uCxi37SpjfzVMF7v3YxpxCdsqLgC18GVRKAonxF5bHnid2W6tc3xACaWKAUFTwLTHuhgiv4e-4kG9nzAVMTBr1ZoEB6DGoJfToJtAZFR3Gvjrc01M_foNpEEU1peTiaQk-0T7as2hND3ucfq-jUBGHrhGnRdOZU5_oDJLerRm7p7yDjpx5uppX6Pw?width=660&height=352&cropmode=none" alt="Card image cap"/>
           <div className="card-body ">Tienda online para comprar deberas crar una cuenta , usando la api de braintree y paypal podes pagar usando una tarjeta false de braintree
             <hr/>
@@ -386,6 +368,21 @@ const Home = () => {
             <span class="badge badge-success mt-2 mr-2 ml-2">NODEJS</span>
             <span class="badge badge-dark mt-2  ">MONGODB</span>
 
+
+           </div>
+           </a>
+        </div>
+
+
+        <div  className="card  col-md-3">
+        <a href="https://hooks-news-c148f.web.app/new/1" target="_blank">
+          <img className="card-img-top " src="https://bn1303files.storage.live.com/y4maYQqFxhtFh1adJ09xl0bdCAY_EvnZQSuIPuYAZUu8SLqOjA1C_XhS_ciCJV3lA3AJQ-lZAQsps0nxIocmmI5Eb2s67X7zlrFITLSfKKlJirzvMFcZRxeFa2e13_grwdLO5Vhn1l5FvQsDieS8J2H6xUy7gTK9ceyy5CQxgGgApioXlYEMF9SciUjmuomdIWE?width=660&height=319&cropmode=none" alt="Card image cap"/>
+          <div className="card-body">En clone de hackers news usando la base de datos firebase, podras registrarte , agregar link, y comentar
+            <hr/>
+            <div className="text-center font-weight-bolder">Tecnologias</div>
+           
+            <span class="badge badge-info mt-2 mr-2">REACT</span>
+            <span class="badge badge-warning mt-2 mr-2">FIREBASE</span>
 
            </div>
            </a>
@@ -402,20 +399,6 @@ const Home = () => {
           <div className="container ">
             <div className="col-12 d-flex flex-wrap justify-content-between">
             <div  className="card  col-md-3">
-            <a href="https://hooks-news-c148f.web.app/new/1" target="_blank">
-          <img className="card-img-top " src="https://bn1303files.storage.live.com/y4maYQqFxhtFh1adJ09xl0bdCAY_EvnZQSuIPuYAZUu8SLqOjA1C_XhS_ciCJV3lA3AJQ-lZAQsps0nxIocmmI5Eb2s67X7zlrFITLSfKKlJirzvMFcZRxeFa2e13_grwdLO5Vhn1l5FvQsDieS8J2H6xUy7gTK9ceyy5CQxgGgApioXlYEMF9SciUjmuomdIWE?width=660&height=319&cropmode=none" alt="Card image cap"/>
-          <div className="card-body">En clone de hackers news usando la base de datos firebase, podras registrarte , agregar link, y comentar
-            <hr/>
-            <div className="text-center font-weight-bolder">Tecnologias</div>
-           
-            <span class="badge badge-info mt-2 mr-2">REACT</span>
-            <span class="badge badge-warning mt-2 mr-2">FIREBASE</span>
-
-           </div>
-           </a>
-        </div>
-
-        <div  className="card  col-md-3">
             <a href="http://157.230.87.53/" target="_blank">
           <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mOt1k6ClmsNwnJ_AijjMsThaAp-OUK1asJKhJoxH3wWsGX_lV9r390E-hiD0hUM810A9fk-cqqpB-XKSs96yUOTaG1YCsJG0sJ1GYyI9qzwpbFNMsedDgyakSNeG6OzKSKDdI3yorhA3dv-X3Lyp8r_o3w8D6EMGdgQi1K1v9VQJfInukEwlaiWiyriPfxscD?width=660&height=357&cropmode=none" alt="Card image cap"/>
           <div className="card-body">Red social en la que el usuario se podra registrar y crear un post , seguir a los usuarios y darle me gusta a los post
@@ -430,14 +413,29 @@ const Home = () => {
            </a>
         </div>
 
-
         <div  className="card  col-md-3">
-            <a href="http://cocina777.atwebpages.com/" target="_blank">
+        <a href="http://cocina777.atwebpages.com/" target="_blank">
           <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mrQu2AWsnUe3QAPcSpZMFavFZK0divogmBFhRgbzrARlV9txgeNTZ1WaK6lz9YIO_NWkyGuL2Q0a0DUKbHW6qeqwqeIEuD8x03F1UXLltIdH9g4yDnRGyBfJUEdts95qCm1y6f5h45RBMBOYrhFRoIFQSUScMzIFfIZU4JH9ZqYhjkYU4bfBbGNWff-Wn3qK9?width=660&height=363&cropmode=none"   alt="Card image cap"/>
           <div className="card-body ">Tema de wordpress para un gimnasio , creando plugins con post type y custom post types            <hr/>
             <div className="text-center font-weight-bolder">Tecnologias</div>
         
             <span class="badge badge-info mt-2">WORDPRESS THEME </span>
+
+
+           </div>
+           </a>
+        </div>
+
+
+        <div  className="card  col-md-3">
+        <a href="http://cocina999.atwebpages.com/" target="_blank">
+          <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mgPM-p9_A_RSEuWLOZ1CYPvDyCACsXQZpBTFXvjRG1gITQe-inr9hE0f-eFHUZW2z_-E6zAdUIX_6nEQrcU38tN-hWfrZJJh1Cpao7qWJ0PVg7jGMJqxofDj0v8i8ZszAgt-8SJ9RSZ6n0BWGyQbkavik83qc-m2K2ph9T5n7p-_BHUemHPiAMZ4WPRiHjJPS?width=660&height=329&cropmode=none"   alt="Card image cap"/>
+          <div className="card-body ">Tema de wordpress para una escuela de cocina , utilizando wordpress , creando plugin con custom metaboxes 3(cmb2)
+            <hr/>
+            <div className="text-center font-weight-bolder">Tecnologias</div>
+        
+            <span class="badge badge-info mt-2">WORDPRESS THEME </span>
+           
 
 
            </div>
@@ -455,21 +453,7 @@ const Home = () => {
           <div className="col-12 d-flex flex-wrap justify-content-between">
 
           <div  className="card  col-md-3">
-            <a href="http://cocina999.atwebpages.com/" target="_blank">
-          <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mgPM-p9_A_RSEuWLOZ1CYPvDyCACsXQZpBTFXvjRG1gITQe-inr9hE0f-eFHUZW2z_-E6zAdUIX_6nEQrcU38tN-hWfrZJJh1Cpao7qWJ0PVg7jGMJqxofDj0v8i8ZszAgt-8SJ9RSZ6n0BWGyQbkavik83qc-m2K2ph9T5n7p-_BHUemHPiAMZ4WPRiHjJPS?width=660&height=329&cropmode=none"   alt="Card image cap"/>
-          <div className="card-body ">Tema de wordpress para una escuela de cocina , utilizando wordpress , creando plugin con custom metaboxes 3(cmb2)
-            <hr/>
-            <div className="text-center font-weight-bolder">Tecnologias</div>
-        
-            <span class="badge badge-info mt-2">WORDPRESS THEME </span>
-           
-
-
-           </div>
-           </a>
-        </div>
-        <div  className="card  col-md-3">
-            <a href="https://boxingcrazy.com.ar/" target="_blank">
+          <a href="https://boxingcrazy.com.ar/" target="_blank">
           <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mrD2N-LAbCU5prszGInfCxPrebXzbG9Q7TEi5Xed6L9QLPYB0UDN9sU3t85PIuEYyadngEc40wE9pZcdZrTniZG0ggGhrZ57PfHQn3nR4ukw6258R_KGOM3Zm68JX3sSvVJL_V6JVokLeRYBKe1_XOIVIJv53Vejssm5FS7v5T7Puu0l7C6NpGvaqAd6EBRd4?width=660&height=357&cropmode=none"   alt="Card image cap"/>
           <div className="card-body ">Tienda online utilizando woocommer y customizando el diseno para el cliente
             <hr/>
@@ -483,6 +467,7 @@ const Home = () => {
            </div>
            </a>
         </div>
+        
         </div>
         </div>
         </div>
