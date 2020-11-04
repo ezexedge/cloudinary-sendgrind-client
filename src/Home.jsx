@@ -236,7 +236,7 @@ const Home = () => {
             <div className="col-12 d-flex flex-wrap justify-content-between">
             <div  className="card  col-md-3 ">
             <a href="http://peliculas999.surge.sh/" target="_blank">
-          <img className="card-img-top " src="https://75rjea.bn.files.1drv.com/y4pRoyCeaQbGpxvAbAR3O1BSi7sGk04pvvLpXfOErpyeFlInWMeGNjvgVc6UlhyAFM0Ux_PAroIzN95bZbfHT-kHfWJn4MPTmJDFoyIER5qX1IkdqVdKNR6aH7nJnTLtXYRFUsDq_vxrEUgFonCgQd17ca2cvubO7tuj236gJqCF3YaFBPWET-8-2-_25aAKLqt0oSs_PwMhcJbFtNkRtYbLRreNXIbWcfW5sy6L5wdzr4?encodeFailures=1&width=1366&height=648" alt="Card image cap"/>
+          <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mNNehAgwklD5UWOyxaK7mq3rl2mxbKQiQ12M2T41VcmhkbeAt8U7C7CvqsmizxHIsLILmcTHp5aMh16I_kyxCJLwPiMtsQ2oo0OInv9nM-3FyM1dBDpOXqE48SZ9nCOj8CTvHKN3NMMh8XnCKVkjcYjycIP3CBF3t_hP45t150-Z9cU5kIL8EQcaA_SlRMAuX?width=660&height=464&cropmode=none" alt="Card image cap"/>
           <div className="card-body">En esta aplicacion web pobras buscar peliculas gracias a la api IMDB desplegado en SURGE
             <hr/>
             <div className="text-center font-weight-bolder">Tecnologias</div>
@@ -461,6 +461,23 @@ const Home = () => {
         
             <span class="badge badge-info mt-2 mr-2">WORPRESS </span>
             <span class="badge badge-danger mt-2">WOOCOMMERCE </span>
+           
+
+
+           </div>
+           </a>
+        </div>
+        <div  className="card  col-md-3">
+          <a href="http://206.189.234.164/" target="_blank">
+          <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mLOR-5dWB5yWCHU8inlgJ4A6ytOfmJb7DS2uwUcmZa-HLpf5b19vYJsfzeKgB2PcTSnU60hcVqo_kSp4FQFQIxbCwAj-XumPPL_RLhhVDD5Y805u1bdC_FDpFtQm9Oewh7j7MCSq-0UppnNZ4rUlNxJoFEFZVvCl5FXuQhzxMfGGmS3RKy5Csl4T1HkDtZ2ua?width=660&height=331&cropmode=none"   alt="Card image cap"/>
+          <div className="card-body ">La aplicacion permite a los usuarios publicar una vacanta de trabajo , en el cual los interesados podran dejar sus datos y cv para ser llamados
+            <hr/>
+            <div className="text-center font-weight-bolder">Tecnologias</div>
+        
+            <span class="badge badge-success mt-2 mr-2 ml-2">NODEJS</span>
+            <span class="badge badge-info mt-2 mr-2">MONGODB</span>
+            <span class="badge badge-warning mt-2 mr-2">HANDLEBARS</span>
+            <span class="badge badge-secondary mt-2">WEBPACK</span>
            
 
 
