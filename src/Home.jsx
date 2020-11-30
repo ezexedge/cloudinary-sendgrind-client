@@ -343,7 +343,7 @@ const Home = () => {
           <div className="container ">
             <div className="col-12 d-flex flex-wrap justify-content-between">
             <div  className="card  col-md-3">
-            <a href="http://206.189.227.59/" target="_blank">
+            <a href="http://157.230.226.34/" target="_blank">
           <img className="card-img-top " src="https://qd7mfa.bn.files.1drv.com/y4mT8l---iDPqpCoJJ7GD6MYzOoRQ24HwALnzaqUU5qU6ROF9WTNbNmsc0WGvb73RMhD0OTQgf7f5LlRQL7wQZAsgkGD6INHBmm8SPWD__QyUuGR-jHHJo_BvpxipPmpLpQqgprvLTVbEo8NSdbZRLidCeoI6Q6KQjp0BVskR0PYGmlsdjZ6FpWUTwihrlu0rb4llQ099lMEI_AQxONFpzaag?width=660&height=451&cropmode=none" alt="Card image cap"/>
           <div className="card-body">El usuario podra registrarse , recibir un mail de validacion y luego modificar sus datos almacenados
             <hr/>
@@ -463,6 +463,20 @@ const Home = () => {
             <span class="badge badge-danger mt-2">WOOCOMMERCE </span>
            
 
+
+           </div>
+           </a>
+        </div>
+
+        <div  className="card  col-md-3">
+        <a href="https://tienda-comida-ffe3c.web.app/" target="_blank">
+          <img className="card-img-top " src="https://res.cloudinary.com/developer-gallardo/image/upload/v1606710664/cocina-laura_wzjy9c.png" alt="Card image cap"/>
+          <div className="card-body">Tienda de comida en la cual el usuario puede comprar , mientras halla iniciado sesion con su cuenta google
+            <hr/>
+            <div className="text-center font-weight-bolder">Tecnologias</div>
+           
+            <span class="badge badge-info mt-2 mr-2">REACT</span>
+            <span class="badge badge-warning mt-2 mr-2">FIREBASE</span>
 
            </div>
            </a>
