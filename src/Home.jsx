@@ -399,7 +399,7 @@ const Home = () => {
           <div className="container ">
             <div className="col-12 d-flex flex-wrap justify-content-between">
             <div  className="card  col-md-3">
-            <a href="http://157.230.87.53/" target="_blank">
+            <a href="http://134.122.19.250/" target="_blank">
           <img className="card-img-top " src="https://bn1303files.storage.live.com/y4mOt1k6ClmsNwnJ_AijjMsThaAp-OUK1asJKhJoxH3wWsGX_lV9r390E-hiD0hUM810A9fk-cqqpB-XKSs96yUOTaG1YCsJG0sJ1GYyI9qzwpbFNMsedDgyakSNeG6OzKSKDdI3yorhA3dv-X3Lyp8r_o3w8D6EMGdgQi1K1v9VQJfInukEwlaiWiyriPfxscD?width=660&height=357&cropmode=none" alt="Card image cap"/>
           <div className="card-body">Red social en la que el usuario se podra registrar y crear un post , seguir a los usuarios y darle me gusta a los post
             <hr/>
